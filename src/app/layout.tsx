@@ -10,7 +10,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Positivus - FREE",
+  title: "Positivus - Free",
 };
 
 export default function RootLayout({

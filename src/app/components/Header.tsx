@@ -9,7 +9,7 @@ import { Menu as MenuIcon, X as CloseIcon } from 'lucide-react'; // Importando o
 const HeaderContainer = styled.header`
   padding: 1rem 5rem;
   display: flex;
-  justify-content: space-between; /* Mantém o espaço entre os elementos */
+  justify-content: space-between;
   align-items: center;
 
   @media (max-width: 768px) {

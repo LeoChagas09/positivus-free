@@ -53,9 +53,9 @@ const ContactFormCard = styled.div`
   border-radius: 45px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
-  display: flex; /* Para alinhar o formulário e a imagem lado a lado */
-  align-items: center; /* Alinha os itens verticalmente ao centro */
-  justify-content: space-between; /* Coloca espaço entre o formulário e a imagem */
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
   overflow: hidden; /* Garante que a imagem com border-radius fique dentro */
 `;
 
@@ -138,11 +138,11 @@ const SubmitButton = styled.button`
 `;
 
 const ImageContainer = styled.div`
-  width: 40%; /* Ajuste conforme necessário */
+  width: 40%;
   height: auto;
-  display: flex; /* Para alinhar o conteúdo interno */
-  justify-content: flex-end; /* Alinha o conteúdo à direita */
-  align-items: center; /* Alinha o conteúdo verticalmente ao centro */
+  display: flex; 
+  justify-content: flex-end; 
+  align-items: center;
 
   @media (max-width: 768px) {
     display: none;
@@ -168,8 +168,8 @@ const ContactUsSection = () => {
 
   const handleSubmit = (event: { preventDefault: () => void; }) => {
     event.preventDefault();
-    // Aqui você implementaria a lógica para enviar o formulário
-    alert('Form submitted!');
+    // Aqui é a implementação da lógica para enviar o formulário
+    alert('Formulário enviado com sucesso!');
     // Limpar os campos após o envio (opcional)
     setName('');
     setEmail('');

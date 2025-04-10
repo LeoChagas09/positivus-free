@@ -57,7 +57,7 @@ const CaseStudyCard = styled.div`
   gap: 64px;
   padding: 2rem;
   display: flex;
-  justify-content: space-around; /* Distribui o espaço entre os exemplos */
+  justify-content: space-around;
 
   @media (max-width: 1024px) {
     flex-direction: column; /* Empilha os exemplos em telas menores */

@@ -11,9 +11,9 @@ const FooterContainer = styled.footer`
   padding: 55px 60px 50px 60px;
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
-  display: flex; /* Alterado para flex container */
-  flex-direction: column; /* Itens dispostos em coluna */
-  align-items: center; /* Centralizar horizontalmente o conteúdo */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
 
   @media (max-width: 768px) {
     border-top-left-radius: 0px;
@@ -26,7 +26,7 @@ const FooterTop = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px; /* Espaço entre a seção superior e o restante do footer */
+  margin-bottom: 40px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -69,8 +69,8 @@ const Navigation = styled.nav`
       color: #ffffff;
       font-size: 18px;
       font-weight: 400;
-      border-bottom: 1px solid #ffffff; /* Adiciona a borda inferior (o risco) */
-      padding-bottom: 1px; /* Opcional: Adiciona um pequeno espaço entre o texto e o risco */
+      border-bottom: 1px solid #ffffff; 
+      padding-bottom: 1px; 
 
       &:hover {
         color: #ccc;
@@ -92,11 +92,11 @@ const Icones = styled.div`
 `;
 
 const IconLink = styled.a`
-  background-color: #fff; /* Background meio branco */
-  color: #000000; /* Cor do ícone igual ao fundo do footer */
-  border-radius: 50%; /* Para torná-los circulares */
-  width: 30px; /* Ajuste o tamanho conforme necessário */
-  height: 30px; /* Ajuste o tamanho conforme necessário */
+  background-color: #fff; 
+  color: #000000;
+  border-radius: 50%; 
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,7 +105,7 @@ const IconLink = styled.a`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #ccc; /* Background branco no hover */
+    background-color: #ccc;
     color: #191A23;
   }
 `;
@@ -115,7 +115,7 @@ const FooterMiddle = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  margin-bottom: 40px; /* Espaço entre a seção do meio e a inferior */
+  margin-bottom: 40px;
 
   @media (max-width: 768px) {
     display: flex;
@@ -178,7 +178,7 @@ const NewsletterSignup = styled.div`
     font-size: 18px;
 
     &::placeholder { /* Estiliza o placeholder */
-      color: #ffffff; /* Define a cor do placeholder para branco */
+      color: #ffffff;
       
     }
 
@@ -200,7 +200,7 @@ const NewsletterSignup = styled.div`
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out; 
 
     &:hover {
       background-color: #a6e05a;
@@ -231,8 +231,8 @@ const FooterBottom = styled.div`
 
   a {
     color: #FFFFFF;
-    border-bottom: 1px solid #ffffff; /* Adiciona a borda inferior (o risco) */
-    padding-bottom: 1px; /* Opcional: Adiciona um pequeno espaço entre o texto e o risco */
+    border-bottom: 1px solid #ffffff; 
+    padding-bottom: 1px;
     
 
     &:hover {

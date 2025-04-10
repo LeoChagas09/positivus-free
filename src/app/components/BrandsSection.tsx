@@ -12,7 +12,7 @@ const BrandsContainer = styled.div`
   gap: 2rem;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
-  flex-wrap: wrap; /* Permite que os itens "quebrem" para a próxima linha no mobile */
+  flex-wrap: wrap;
 
   @media (max-width: 768px) {
     padding: 1rem 2rem; /* Reduz o padding no mobile */
@@ -47,7 +47,6 @@ const BrandsSection = () => {
       <BrandImage src="/notion.png" alt="Notion Logo" />
       <BrandImage src="/netflix.png" alt="Netflix Logo" />
       <BrandImage src="/zoom.png" alt="Zoom Logo" />
-      {/* Adicione mais imagens conforme necessário */}
     </BrandsContainer>
   );
 };

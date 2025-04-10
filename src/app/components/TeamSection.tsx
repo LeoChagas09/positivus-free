@@ -51,18 +51,18 @@ const SectionDescription = styled.p`
 
 const TeamGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted minmax width */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 40px;
 `;
 
 const TeamCard = styled.div`
   background-color: #fff;
   border: 1px solid #191A23;
-  border-radius: 45px; /* Slightly more rounded */
-  box-shadow: 0px 5px 0px 0px #191A23; /* Softer shadow */
+  border-radius: 45px; 
+  box-shadow: 0px 5px 0px 0px #191A23;
   padding: 40px 35px 40px 35px;
   gap: 10px;
-  text-align: left; /* Align text to the left */
+  text-align: left;
   position: relative;
 
   @media (max-width: 768px) {
@@ -71,10 +71,10 @@ const TeamCard = styled.div`
 `;
 
 const ProfileImageWrapper = styled.div`
-  width: 60px; /* Smaller image size */
-  height: 60px; /* Smaller image size */
-  border-radius: 50%; /* Slightly more rounded */
-  box-shadow: 0px 5px 0px 0px #191A23; /* Softer shadow */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 0px 0px #191A23;
   overflow: hidden;
   margin-bottom: 15px;
   position: relative;
@@ -101,7 +101,7 @@ const LinkedInIconWrapper = styled.a`
 `;
 
 const Name = styled.h3`
-  font-size: 20px; /* Slightly smaller name */
+  font-size: 20px;
   font-weight: 500;
   color: #000000;
   margin-bottom: 5px;
@@ -120,21 +120,21 @@ const Experience = styled.p`
   font-size: 18px;
   font-weight: 400;
   color: #000000;
-  margin-bottom: 5px; /* Reduced margin */
+  margin-bottom: 5px;
 `;
 
 const SeeAllButton = styled.button`
   display: block;
-  width: 269px; /* Adjusted button width */
-  padding: 20px 35px 20px 35px; /* Adjusted padding */
+  width: 269px;
+  padding: 20px 35px 20px 35px;
   background-color: #191A23;
   color: #ffffff;
   border: none;
   border-radius: 14px;
   cursor: pointer;
-  font-size: 20px; /* Adjusted font size */
+  font-size: 20px;
   font-weight: 400;
-  margin-top: 30px; /* Increased top margin */
+  margin-top: 30px; 
   margin-left: auto;
 
   &:hover {

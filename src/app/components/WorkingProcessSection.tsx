@@ -80,7 +80,7 @@ const AccordionTitle = styled.div<AccordionTitleProps>`
     border-bottom: none;
   }
 
-  background-color: ${({ isopen }) => (isopen ? '#B9FF66' : '#F3F3F3')}; /* Verde claro quando aberto */
+  background-color: ${({ isopen }) => (isopen ? '#B9FF66' : '#F3F3F3')};
   border-radius: ${({ index }) => (index === 0 ? '10px 10px 0 0' : '')};
 
   @media (max-width: 768px) {

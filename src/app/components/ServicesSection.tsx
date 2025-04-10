@@ -40,7 +40,7 @@ const SectionTitle = styled.h2`
 
 const SectionDescription = styled.p`
   font-size: 18px;
-  color: #666;
+  color: #000000;
   max-width: 45%;
 
   @media (max-width: 768px) {
@@ -51,7 +51,7 @@ const SectionDescription = styled.p`
 
 const ServicesGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajusta o layout responsivo */
+  grid-template-columns: repeat(2, 1fr); /* Exibe 2 cards lado a lado */
   gap: 2rem;
 
   @media (max-width: 768px) {
@@ -63,8 +63,8 @@ const ServiceCard = styled.div`
   background-color: #f3f3f3;
   border-radius: 45px;
   box-shadow: 0px 5px 0px 0px #191a23;
-  padding: 45px;
-  gap: 10px;
+  padding: 50px;
+  gap: 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -86,7 +86,7 @@ const CardContent = styled.div`
 `;
 
 const CardTitle = styled.h3`
-  font-size: 1.2rem;
+  font-size: 30px;
   font-weight: bold;
   color: #191a23;
   background-color: #b9ff66;
@@ -107,18 +107,18 @@ const LearnMoreLink = styled(Link)`
 const LearnMoreIcon = styled.img`
   width: 20px;
    @media (max-width: 768px) {
-    width: 30px; /* Esconde a imagem do CTA no mobile */
+    width: 30px;
   }
 `;
 
 const TitleLearn = styled.p`
   @media (max-width: 768px) {
-    display: none; /* Esconde a imagem do CTA no mobile */
+    display: none;
   }
 `;
 
 const CardImage = styled.img`
-  width: 130px;
+  width: 150px;
   height: auto;
   object-fit: contain;
 
@@ -135,10 +135,6 @@ const CallToActionCard = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  @media (max-width: 768px) {
-
-  }
 `;
 
 const CTAContent = styled.div`
@@ -153,7 +149,7 @@ const CTAContent = styled.div`
 `;
 
 const CTATitle = styled.h2`
-  font-size: 1.5rem;
+  font-size: 40px;
   font-weight: bold;
   color: #191a23;
   margin-bottom: 0.5rem;
